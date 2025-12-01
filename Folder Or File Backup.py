@@ -6,8 +6,7 @@ import sys
 def create_custom_copy(path):
     # Get the current date and time in ISO 8601 (Basic) format
     current_time = datetime.now().strftime('%d %m %Y T%H %M %S')
-    
-    
+
     # Get the directory and the base name of the file or folder
     directory = os.path.dirname(path)
     base_name = os.path.basename(path)
